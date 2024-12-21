@@ -1,0 +1,16 @@
+[package]
+name = "stoeura"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["net", "rt-multi-thread"] }
+tracing-subscriber = "0.3.19"
+tower = "0.5"
+tracing = "0.1"
+tokio-rusqlite = "0.6.0"
+rusqlite = "0.32.1"
+aws-sdk-s3 = "1.66.0"
+aws-config = "1.5.11"
